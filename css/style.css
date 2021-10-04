@@ -128,8 +128,54 @@ header {
   flex-direction: column;
   align-items: center;
   width: 20%;
+  margin-block: 30px;
+  border-inline-start: 2px solid rgb(192, 192, 192);
 }
-
+.main__extra--container h3 {
+  font-size: 2.2rem;
+  margin: 10px 10px;
+  text-align: center;
+}
+.main__extra--container a {
+  width: 140px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  background-color: rgb(233, 147, 147);
+  margin: 10px;
+  border-radius: 10px;
+  color: black;
+}
+.main__extra--contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__extra--support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__extra--info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__extra--info h4 {
+  font-size: 1.3rem;
+  margin-inline-start: 10px;
+  text-align: center;
+}
+.main__extra--info li {
+  margin-inline-start: 30px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.main__extra--info li:first-child {
+  margin-block-start: 10px;
+}
 /* FOOTER */
 .footer__info {
   width: 100%;
