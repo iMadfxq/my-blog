@@ -132,21 +132,25 @@ header {
   border-inline-start: 2px solid rgb(192, 192, 192);
 }
 .main__extra--container h3 {
-  font-size: 2.2rem;
-  margin: 10px 10px;
+  font-size: 2.1rem;
+  margin: 10px 20px;
   text-align: center;
 }
 .main__extra--container a {
-  width: 140px;
-  height: 60px;
+  width: 125px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.6rem;
-  background-color: rgb(233, 147, 147);
+  font-size: 1.5rem;
+  background-color: white;
   margin: 10px;
   border-radius: 10px;
   color: black;
+}
+.main__extra--container img {
+  width: 20px;
+  margin-inline-end: 4px;
 }
 .main__extra--contact {
   display: flex;
@@ -163,18 +167,25 @@ header {
   flex-direction: column;
   align-items: center;
 }
+.extra__improvements {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-inline: 20px;
+}
 .main__extra--info h4 {
   font-size: 1.3rem;
-  margin-inline-start: 10px;
   text-align: center;
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+.main__extra--info ul {
+  padding: 10px;
 }
 .main__extra--info li {
   margin-inline-start: 30px;
   font-size: 1.1rem;
-  text-align: center;
-}
-.main__extra--info li:first-child {
-  margin-block-start: 10px;
 }
 /* FOOTER */
 .footer__info {
