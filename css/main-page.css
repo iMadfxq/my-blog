@@ -53,7 +53,7 @@ header {
 }
 
 /* MAIN */
-.main__container {
+.content__container {
   display: flex;
   flex-direction: row;
 }
