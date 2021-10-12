@@ -53,6 +53,22 @@ header {
 }
 
 /* MAIN */
+.content__container {
+  display: flex;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+.main__text {
+  display: flex;
+  flex-direction: column;
+}
+aside {
+  width: 30%;
+}
 .post {
   display: flex;
   flex-direction: column;
