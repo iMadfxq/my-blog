@@ -90,7 +90,6 @@ header {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   object-fit: cover;
-  object-position: 100% 74%;
 }
 .post__text {
   margin-inline: 10px;
