@@ -70,9 +70,37 @@ main {
 }
 .main__text h1 {
   font-size: 2.6rem;
-  text-align: center;
-  margin: 20px;
+  margin-block: 20px;
 }
+.main__text h2 {
+  font-size: 2rem;
+  margin-block: 10px;
+}
+.main__text p {
+  font-size: 1.6rem;
+  margin-block-end: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.text__intro {
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 20px;
+  color: rgb(116, 116, 116);
+}
+.text__intro p {
+  margin: 0;
+}
+.text__intro--info {
+  display: flex;
+  justify-content: space-between;
+  margin-block-start: 10px;
+}
+.text__intro--info span {
+  font-size: 1.6rem;
+}
+
+
 aside {
   display: flex;
   flex-direction: column;
