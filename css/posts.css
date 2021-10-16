@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  text-decoration: none;
+  list-style: none;
 }
 html {
   font-size: 62.5%;
@@ -98,6 +98,16 @@ main {
 }
 .text__intro--info span {
   font-size: 1.6rem;
+}
+.main__text--related {
+  display: flex;
+}
+.main__text--related p {
+  font-weight: 700;
+}
+.main__text--related a {
+  font-size: 1.6rem;
+  margin-inline-start: 5px;
 }
 
 
