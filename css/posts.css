@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  list-style: none;
+  text-decoration: none;
 }
 html {
   font-size: 62.5%;
@@ -66,7 +66,7 @@ main {
 .main__text {
   display: flex;
   flex-direction: column;
-  padding: 0px 30px 30px 30px;
+  padding: 0px 25px 25px 25px;
 }
 .main__text h1 {
   font-size: 2.6rem;
@@ -108,8 +108,29 @@ main {
 .main__text--related a {
   font-size: 1.6rem;
   margin-inline-start: 5px;
+  text-decoration: underline;
+  height: fit-content;
 }
-
+.main__text--lists {
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 20px;
+}
+.main__text--lists h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.main__text--lists ul {
+  font-size: 1.6rem;
+}
+.main__text--lists li {
+  margin: 10px 0px 10px 20px;
+}
+#call {
+  font-weight: 600;
+  text-decoration: underline;
+}
 
 aside {
   display: flex;
