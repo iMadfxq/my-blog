@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/iMadfxq/my-blog/issues"
   },
-  "homepage": "https://github.com/iMadfxq/my-blog#readme"
+  "homepage": "https://github.com/iMadfxq/my-blog#readme",
+  "optionalDependencies": {
+    "eslint": "^8.0.1"
+  }
 }
