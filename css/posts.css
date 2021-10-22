@@ -218,7 +218,7 @@ aside h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 280px;
+  width: 290px;
   height: 280px;
   margin: 10px;
   background-color: white;
@@ -226,22 +226,22 @@ aside h2 {
   color: black;
 }
 .post img {
-  width: 280px;
+  width: 290px;
   height: 150px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   object-fit: cover;
 }
 .post__text {
-  margin-inline: 10px;
+  margin: 0px 10px 0px 10px;
 }
 .post__text h3 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin: 5px 0px;
 }
 .post__text > p {
   margin: 5px 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .post__text span {
   color: gray;
@@ -253,10 +253,10 @@ aside h2 {
   align-items: center;
 }
 .post__text--tags h4 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 .post__text--tags p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 0px 2px;
   padding: 3px;
   border-radius: 10px;
