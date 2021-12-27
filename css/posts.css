@@ -169,6 +169,10 @@ main {
   margin: 5px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition-duration: 200ms;
+}
+.main__contact--container a:hover {
+  transform: scale(1.05);
 }
 .main__contact--container a img {
   width: 25px;
@@ -197,6 +201,10 @@ main {
   margin:0px 0px 10px 0px;
   color: black;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition-duration: 200ms;
+}
+.main__portfolio a:hover {
+  transform: scale(1.05);
 }
 .main__portfolio img {
   width: 70px;
@@ -225,11 +233,15 @@ aside h2 {
   align-items: flex-start;
   width: 290px;
   height: 280px;
-  margin: 10px;
+  margin: 10px 20px;
   background-color: white;
   border-radius: 10px;
   color: black;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition-duration: 200ms;
+}
+.post:hover {
+  transform: scale(1.05);
 }
 .post img {
   width: 290px;
