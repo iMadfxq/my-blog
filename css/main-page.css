@@ -64,9 +64,11 @@ header {
 .header__logo a {
   display: flex;
   width: 100px;
+  height: 57.14px;
 }
 .header__logo img {
   width: inherit;
+  height: inherit;
 }
 .header__nav {
   display: flex;
